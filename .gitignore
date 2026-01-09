@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# ML models
+*.pkl
+*.joblib
+*.h5
+
+# Node / Frontend
+node_modules/
+package-lock.json
+
+# Firebase generated
+dataconnect-generated/
+.firebase/
+.firebaserc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary ignore problematic file
+ml-backend/app.py
+# Temporarily ignore problematic backend files
+ml-backend/app.py
+ml-backend/__pycache__/
